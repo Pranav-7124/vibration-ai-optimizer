@@ -1,9 +1,15 @@
-__pycache__/
-*.pyc
-.pytest_cache/
-.env
+node_modules/
+dist/
+dist-ssr/
+*.local
 
-# Do not ignore data and models so the project runs out of the box
-# vibration_data.csv
-# model.pkl
-# scaler.pkl
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+.DS_Store
