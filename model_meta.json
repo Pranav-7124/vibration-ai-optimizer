@@ -1,0 +1,31 @@
+{
+  "best_model": "Gradient Boosting",
+  "features": [
+    "frequency",
+    "mass_ratio",
+    "clearance",
+    "location",
+    "freq_ratio",
+    "damping_ratio"
+  ],
+  "target": "amplitude",
+  "train_samples": 4000,
+  "test_samples": 1000,
+  "metrics": {
+    "Random Forest": {
+      "r2": 0.9977,
+      "mae": 0.108511,
+      "rmse": 0.303854
+    },
+    "Gradient Boosting": {
+      "r2": 0.9983,
+      "mae": 0.107914,
+      "rmse": 0.265383
+    },
+    "MLP Neural Network": {
+      "r2": 0.9977,
+      "mae": 0.122237,
+      "rmse": 0.306712
+    }
+  }
+}

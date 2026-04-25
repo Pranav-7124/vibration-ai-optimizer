@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+
+# Do not ignore data and models so the project runs out of the box
+# vibration_data.csv
+# model.pkl
+# scaler.pkl
